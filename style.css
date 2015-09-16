@@ -1,4 +1,8 @@
 
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
 }
@@ -6,6 +10,7 @@ html, body {
 body {
   display: -webkit-flex;
   display: flex;
+  visibility: hidden;
 }
 
 main {
@@ -26,12 +31,12 @@ h1 {
   border-bottom: 1px solid black;
   padding-bottom: 0.5em;
   margin-bottom: 0;
-  font-size: 3em;
+  font-size: 3.5em;
   font-variant: small-caps;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 img {
